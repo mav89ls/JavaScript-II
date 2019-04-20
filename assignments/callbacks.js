@@ -24,7 +24,7 @@ const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
 
 */
 //////////////////////////////////////////////////////////////////////////////////////////
-// const items = ['Pencil', 'Notebook', 'yo-yo', 'Gum'];
+
 function getLength(arr, cb) {
     // getLength passes the length of the array into the callback.
 
@@ -41,7 +41,7 @@ getLength(items, function(arrayLength) {
 
 
 function last(arr, cb) {
-    // last passes the last item of the array into the callback.	  // last passes the last item of the array into the callback.
+    // last passes the last item of the array into the callback.
     return cb(arr[arr.length - 1]);
 }
 
@@ -90,7 +90,7 @@ function contains(item, list, cb) {
     }
 }
 
-contains('Banana', items, function(result) {
+contains('AirPods', items, function(result) {
     console.log(result);
 })
 
